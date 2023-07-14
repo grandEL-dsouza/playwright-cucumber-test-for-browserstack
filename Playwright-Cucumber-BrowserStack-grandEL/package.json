@@ -1,0 +1,19 @@
+{
+  "name": "playwright-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test3",
+    "test3": "cross-env CONFIG_FILE=single ./node_modules/.bin/cucumber-js features/view-hyperexecute-documentation.feature"
+    
+  },
+  "author": "grandEL",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.5.3",
+    "@playwright/test": "^1.25.2",
+    "playwright": "^1.17.2",
+    "cross-env": "^7.0.3"
+  }
+}
