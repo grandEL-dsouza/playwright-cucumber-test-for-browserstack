@@ -1,4 +1,4 @@
-# playwright-cucumber-test-for-browserstack
+# playwright-cucumber-test-for-browserstack-with-javascript
 
 #Setup
 #Clone the repo and run cd node-js-playwright-browserstack
